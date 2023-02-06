@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review Form</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>User info</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" /> <br />
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Your Review</legend>
+
+        <label for="connection">How did you hear about us?</label>
+        <select name="connection" id="connection">
+          <option value="google">Google</option>
+          <option value="github">GitHub</option>
+          <option value="friend">Friend</option>
+          <option value="other">Other</option>
+        </select>
+        <br />
+
+        <p>
+          Would you recommend us to a friend?
+          <label>
+            <input type="radio" name="recommend" value="yes" /> Yes
+          </label>
+          <label> <input type="radio" name="recommend" value="no" /> No </label>
+          <label>
+            <input type="radio" name="recommend" value="maybe" /> Maybe
+          </label>
+        </p>
+
+        <label for="comment">Review:</label> <br />
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea>
+        <br />
+
+        <label>
+          <input type="checkbox" name="newsletter" checked />
+          Sign me up for email updates :)
+        </label>
+        <br />
+
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
