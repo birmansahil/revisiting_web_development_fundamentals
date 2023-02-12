@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+    font-family: sans-serif;
+    background-color: #eee;
+}
+
+h1 {
+    margin-bottom: 0.5em;
+}
+
+.sub-heading {
+    margin-bottom: 1.5em;
+}
+
+.card {
+    width: 500px;
+    padding: 1.5em;
+    background-color: #fff;
+}
+
+span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: rgb(127, 172, 255);
+}
+
+.review {
+    margin: 1em 0;
+    line-height: 1.5;
+}
+
+.author {
+    color: #373737;
+    font-size: 0.75em;
+    font-weight: bold;
+}

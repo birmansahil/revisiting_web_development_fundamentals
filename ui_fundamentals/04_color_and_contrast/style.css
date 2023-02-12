@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #ffeed9;
+}
+
+.card {
+    width: 500px;
+    margin: 250px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.empty-space {
+    display: block;
+    width: 100%;
+    height: 150px;
+    background-color: #a692ff;
+}
+
+.content {
+    padding: 1.5em;
+}
+
+.title {
+    margin-bottom: 0.5em;
+}
+
+.tag {
+    padding: 0.25em 0.5em;
+    font-size: 0.75em;
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.tag:nth-last-child(2) {
+    margin: 0 0.5em;
+}
+
+.description {
+    margin-top: 1em;
+    line-height: 1.5;
+}

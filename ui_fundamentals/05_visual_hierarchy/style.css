@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 2em;
+    font-family: sans-serif;
+    background-color: #fffcf9;
+}
+
+h1 {
+    margin-bottom: 1.5em;
+}
+
+form {
+    padding: 1em 2em;
+    background-color: #b0afec;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+input {
+    border: 0;
+}
+
+input[type="email"] {
+    width: 80%;
+    padding: 0.25em;
+    font-size: 1.15em;
+}
+
+input[type="submit"] {
+    padding: 0.25em 1.5em;
+    color: #fff;
+    font-size: 1.15em;
+    font-weight: bold;
+    text-transform: capitalize;
+    background-color: #817fd7;
+}
+
+.extra {
+    margin-top: 0.5em;
+    font-size: 0.75em;
+}
