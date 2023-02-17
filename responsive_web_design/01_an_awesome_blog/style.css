@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    margin: 45px 0;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #e9b4d7;
+}
+
+.blog-post {
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f8f5f5;
+}
+
+h2 {
+    font-size: 32px;
+    color: #e591c8;
+}
+
+img {
+    width: 100%;
+    margin: 25px 0;
+}
+
+p {
+    margin: 9px 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+a {
+    color: #1da5ca;
+    font-weight: bold;
+}
+
+a:focus, a:hover {
+    color: #e591c8;
+}
