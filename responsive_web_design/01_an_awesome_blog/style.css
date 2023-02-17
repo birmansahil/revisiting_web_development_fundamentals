@@ -5,6 +5,7 @@
 
 body {
     font-family: sans-serif;
+    font-size: 16px;
 }
 
 header {
@@ -36,7 +37,6 @@ img {
 
 p {
     margin: 9px 0;
-    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -45,6 +45,7 @@ a {
     font-weight: bold;
 }
 
-a:focus, a:hover {
+a:focus,
+a:hover {
     color: #e591c8;
 }
