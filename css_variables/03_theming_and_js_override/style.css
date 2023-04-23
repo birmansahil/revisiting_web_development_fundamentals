@@ -1,0 +1,25 @@
+:root {
+    --heading-color: #222;
+    --para-color: #f1f2f4;
+    --bg-color: #f2afc2;
+}
+
+body {
+    display: flex;
+    gap: 2em;
+}
+
+h3 {
+    color: var(--heading-color);
+}
+
+.item {
+    padding: 1em;
+    color: var(--para-color);
+    background-color: var(--bg-color);
+}
+
+.featured {
+    --para-color: #ddd;
+    --bg-color: #001ccc;
+}

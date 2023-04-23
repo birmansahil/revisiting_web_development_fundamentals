@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #415cfc;
+}
+
+/* Keep the code cleaner by declaring and referencing a variable separately */
+
+header {
+    --header-color: #d9421f;
+}
+
+li {
+    color: var(--header-color);
+}
+
+h1 {
+    color: var(--primary-color);
+}
+
+p {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
+}

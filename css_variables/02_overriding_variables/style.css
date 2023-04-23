@@ -1,0 +1,21 @@
+:root {
+    --red: #ff6f69;
+    --beige: #ffeead;
+    --yellow: #ffcc5c;
+}
+
+body {
+    background-color: var(--beige);
+}
+
+h1 {
+    color: var(--red);
+}
+
+p {
+    color: var(--yellow);
+}
+
+.changed-color {
+    --yellow: #ff0000;
+}
